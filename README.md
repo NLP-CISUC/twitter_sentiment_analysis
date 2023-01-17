@@ -1,4 +1,4 @@
-# Twitte Dialogues for Sentiment Analysis
+# Twitter Dialogues for Sentiment Analysis
 The Twitter Dialogues for Sentiment Analysis corpus contains Twitter IDs from dialogues, to be used in the evaluation of Sentiment in dialogue systems.
 
 The Twitter accounts used are related to TeleCommunications, Healthcare, and e-Commerce.
