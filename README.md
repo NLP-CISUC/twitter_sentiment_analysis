@@ -1,8 +1,39 @@
-# twitter_sentiment_analysis
-Dataset containing Twitter IDs from accounts related to TeleCommunications, Healthcare, and e-Commerce, and the respective binary and multi-class sentiment classifications.
+# twitter_dialogues_for_sentiment_analysis
+The Twitter Dialogues for Sentiment Analysis corpus contains Twitter IDs from dialogues, to be used in the evaluation of Sentiment in dialogue systems.
 
-The annotation was performed manually and achieved moderate agreement between the annotators. The multi-class labels range from Very Negative (-2) to Positive (1), and have an average of 0.48+-0.13 using the Fleiss metric, and an average of 0.66+-0.16 using the Krippendorff. The binary labels represent Negative and Non-Negative sentiment and have an average of 0.67+-0.16 in both metrics.
+The Twitter accounts used are related to TeleCommunications, Healthcare, and e-Commerce.
 
-This dataset includes the identification of each speaker as an USER or a SERVICE, and the identification of each dialogue as a group of tweets that share the same DIALOG_ID.
+The annotation was performed manually and achieved moderate agreement between the annotators. 
+The multi-class labels range from Very Negative (-2) to Positive (1), and have an average of 0.48+/-0.13 using the Fleiss metric, and an average of 0.66+/-0.16 using the Krippendorff. 
+The binary labels represent Negative and Non-Negative sentiment and have an average of 0.67+/-0.16 in both metrics.
 
-Besides the median of the grouped annotations for each sentence (in binary and multiclass scenarios), we include the independent labels from each annotator ("Annot_1_M" identifies annotator number 1 in the multiclass scenario, "Annot_2_B" identifies annotator number 2 in the binary scenario).
+They are represented in an .xlsx file containing the following eleven headers:
+
+- Tweet_ID: ID of each Tweet
+- Dialog_ID: ID representing the Tweets belonging to the same dialogue
+- Median_Multiclass: Median of the 3 annotations for the multi-class scenario
+- Median_Binary: Median of the 3 annotations for the binary scenario
+- Annot_1_M: Annotation of annotator 1 for the multi-class scenario
+- Annot_2_M: Annotation of annotator 2 for the multi-class scenario
+- Annot_3_M: Annotation of annotator 3 for the multi-class scenario
+- Annot_1_B: Annotation of annotator 1 for the binary scenario
+- Annot_2_B: Annotation of annotator 2 for the binary scenario
+- Annot_3_B: Annotation of annotator 3 for the binary scenario
+- Speaker: Identification of the author of the tweet as USER or SERVICE
+
+# versions
+
+twitter_ids_sentiment (october 2022): First version of the corpus, comprising 381 dialogues and 954 utterances, involving accounts related to TeleCommunications, Healthcare, and e-Commerce.
+
+# how_to_cite
+
+A paper on the creation of the first version of this corpus and some experiments with this corpus was published in the Proceedings of [IberSPEECH 2022](http://iberspeech2022.ugr.es/). See BibTex:
+
+@inproceedings{carvalho22_iberspeech,
+  author={Isabel Carvalho and Hugo Gonçalo Oliveira and Catarina Silva},
+  title={{Sentiment Analysis in Portuguese Dialogues }},
+  year=2022,
+  booktitle={Proc. IberSPEECH 2022},
+  pages={176--180},
+  doi={10.21437/IberSPEECH.2022-36}
+}
