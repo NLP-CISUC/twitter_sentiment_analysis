@@ -29,7 +29,7 @@ twitter_ids_sentiment (october 2022): First version of the corpus, comprising 38
 
 A paper on the creation of the first version of this corpus and some experiments with this corpus was published in the Proceedings of [IberSPEECH 2022](http://iberspeech2022.ugr.es/). See BibTex:
 
-''' latex
+```latex
 @inproceedings{carvalho22_iberspeech,
   author={Isabel Carvalho and Hugo Gonçalo Oliveira and Catarina Silva},
   title={{Sentiment Analysis in Portuguese Dialogues }},
@@ -38,4 +38,4 @@ A paper on the creation of the first version of this corpus and some experiments
   pages={176--180},
   doi={10.21437/IberSPEECH.2022-36}
 }
-'''
+```
