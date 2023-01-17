@@ -1,4 +1,4 @@
-# Twitter_Dialogues_for_Sentiment_Analysis
+# Twitte Dialogues for Sentiment Analysis
 The Twitter Dialogues for Sentiment Analysis corpus contains Twitter IDs from dialogues, to be used in the evaluation of Sentiment in dialogue systems.
 
 The Twitter accounts used are related to TeleCommunications, Healthcare, and e-Commerce.
@@ -25,7 +25,7 @@ They are represented in an .xlsx file containing the following eleven headers:
 
 twitter_ids_sentiment (october 2022): First version of the corpus, comprising 381 dialogues and 954 utterances, involving accounts related to TeleCommunications, Healthcare, and e-Commerce.
 
-# How_to_Cite
+# How to Cite
 
 A paper on the creation of the first version of this corpus and some experiments with this corpus was published in the Proceedings of [IberSPEECH 2022](http://iberspeech2022.ugr.es/). See BibTex:
 
