@@ -1,4 +1,4 @@
-# Expanded dataset moved to new a repository:
+# Extended dataset moved to new a repository:
 https://github.com/NLP-CISUC/TwitterDialogueSAPT
 
 # Twitter Dialogues for Sentiment Analysis
