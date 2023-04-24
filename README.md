@@ -1,3 +1,6 @@
+# Moved to new a repository:
+https://github.com/NLP-CISUC/TwitterDialogueSAPT
+
 # Twitter Dialogues for Sentiment Analysis
 The Twitter Dialogues for Sentiment Analysis corpus contains Twitter IDs from dialogues, to be used in the evaluation of Sentiment in dialogue systems.
 
